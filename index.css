@@ -1,0 +1,41 @@
+
+#mainDiv{
+    margin: 0px 180px; 
+}
+
+#menu{
+    background-color: #707070;
+    height: 130px;
+    position: relative;
+}
+
+#menu ul {
+    position: absolute;
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    right: 0;
+    bottom: 0;
+}
+
+#menu ul li {
+    display: inline;
+    border-radius: 20%; 
+    background-color: #ffa500;
+    border-bottom: 3px solid #ffa500;
+    width: 100px;
+    
+    
+}
+
+#menu ul li a {
+    padding: 20px 15px;
+    display: inline-block;
+    
+
+    /* visual do link */
+    
+    color: #ffffff;
+    text-decoration: none;
+    
+}
